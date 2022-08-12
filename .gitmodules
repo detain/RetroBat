@@ -4,7 +4,12 @@
 [submodule "system/decorations"]
 	path = system/decorations
 	url = https://github.com/kaylh/batocera-bezel.git
-	
 [submodule "emulationstation/.emulationstation/themes/es-theme-carbon"]
 	path = emulationstation/.emulationstation/themes/es-theme-carbon
 	url = https://github.com/kaylh/es-theme-carbon.git
+[submodule "emulationstation/.emulationstation/themes/Alekfull-ARTFLIX"]
+	path = emulationstation/.emulationstation/themes/Alekfull-ARTFLIX
+	url = https://github.com/fagnerpc/Alekfull-ARTFLIX.git
+[submodule "emulationstation/.emulationstation/themes/es-theme-retrobat-Roleta"]
+	path = emulationstation/.emulationstation/themes/es-theme-retrobat-Roleta
+	url = https://github.com/lorenzolamas/es-theme-retrobat-Roleta.git
