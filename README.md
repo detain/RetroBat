@@ -56,15 +56,17 @@ build.bat
 ## 🦇 RetroBat Team
 
 - Adrien Chalard "Kayl" - creator of the project, developer
-- Lorenzolamas - community management, graphics
+- Lorenzolamas - community management, graphics (former active)
 - Fabrice Caruso - lead developer, theme creation
 - GetUpOr - community, support
 - RetroBoy - community, support
+- Tartifless - developer, documentation
 
-## 🤘 Special Thanks
+## 💟 Special Thanks
 
-- Hel Mic - for his generous support and for his wonderful themes.
-- Batocera - for their wonderful retrogaming dedicated Operating System.
+- [Hel Mic](https://github.com/lehcimcramtrebor/) - for his wonderful themes.
+- [Batocera](https://www.batocera.org/) - for their wonderful retrogaming dedicated Operating System.
+- [Gitbook](https://www.gitbook.com/) - for supporting our project.
 
 ## ⚖ Licence
 
