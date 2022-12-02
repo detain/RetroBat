@@ -20,7 +20,7 @@ set get_batocera_ports=1
 set get_bios=1
 set get_decorations=1
 set get_default_theme=1
-set get_emulationstation=0
+set get_emulationstation=1
 set get_emulators=0
 set get_lrcores=1
 set get_mega_bezels=0
@@ -50,7 +50,7 @@ set emulators_black_list=(pico8 retroarch ryujinx steam teknoparrot xenia)
 set script_type=builder
 set user_choice=0
 set git_branch=master
-set branch=beta
+set branch=stable
 set release_version=null
 set log_file=build.log
 set exit_timeout=0
@@ -466,7 +466,13 @@ if exist "!system_path!\templates\emulationstation\music\*.ogg" xcopy /v /y "!sy
 if not exist "!build_path!\system\version.info" (
 
 	(set timestamp=%date:~6,4%%date:~3,2%%date:~0,2%)
-	(set release_version=%retrobat_version%-!timestamp!-%branch%-%arch%)
+	
+	if "%branch%" == "stable" (
+		(set release_version=%retrobat_version%-%branch%-%arch%)
+	) else (
+		(set release_version=%retrobat_version%-!timestamp!-%branch%-%arch%)
+	)
+	
 	(echo|set/P=!release_version!)> "!build_path!\system\version.info"	
 )
 
@@ -519,7 +525,7 @@ echo :: CREATING ARCHIVE...
 call :check_version
 
 set package_file=%name%-v%release_version%.%archive_format%
-set exclude_list=(exclude.lst hash_list.txt %name%-v%release_version%-setup.exe %name%-v%release_version%-setup.exe.sha256 %name%-v%release_version%.%archive_format%)
+set exclude_list=(exclude.lst hash_list.txt %name%-v%release_version%-setup.exe %name%-v%release_version%-setup.exe.sha256.txt %name%-v%release_version%.%archive_format% %name%-v%release_version%.%archive_format%.sha256.txt)
 
 if not exist "!build_path!\%package_file%" (
 
