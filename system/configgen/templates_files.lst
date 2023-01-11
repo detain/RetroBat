@@ -1,3 +1,6 @@
+\system\resources\emulationstation\notice.pdf|\emulationstation\.emulationstation\notice.pdf
+\system\resources\emulationstation\progress.png|\emulationstation\resources\progress.png
+\system\resources\emulationstation\splash.xml|\emulationstation\resources\splash.xml
 \system\resources\retrobat_logo.svg|\emulationstation\resources\splash_retrobat.svg
 \system\templates\bigpemu\userdata\BigPEmuConfig.bigpcfg|\emulators\bigpemu\userdata\BigPEmuConfig.bigpcfg
 \system\templates\cemu\settings.xml|\emulators\cemu\settings.xml
@@ -20,13 +23,9 @@
 \system\templates\duckstation\settings.ini|\emulators\duckstation\settings.ini
 \system\templates\emulationstation\batocera-store.cfg|\emulationstation\batocera-store.cfg
 \system\templates\emulationstation\emulatorLauncher.cfg|\emulationstation\emulatorLauncher.cfg
-\system\templates\emulationstation\es_features.cfg|\emulationstation\.emulationstation\es_features.cfg
 \system\templates\emulationstation\es_input.cfg|\emulationstation\.emulationstation\es_input.cfg
 \system\templates\emulationstation\es_padtokey.cfg|\emulationstation\.emulationstation\es_padtokey.cfg
 \system\templates\emulationstation\es_settings.cfg|\emulationstation\.emulationstation\es_settings.cfg
-\system\templates\emulationstation\notice.pdf|\emulationstation\.emulationstation\notice.pdf
-\system\templates\emulationstation\progress.png|\emulationstation\resources\progress.png
-\system\templates\emulationstation\splash.xml|\emulationstation\resources\splash.xml
 \system\templates\hypseus\hypinput.ini|\emulators\hypseus\hypinput.ini
 \system\templates\infos\portable.txt|\emulators\cemu\portable.txt
 \system\templates\infos\portable.txt|\emulators\citra\portable.txt

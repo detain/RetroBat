@@ -10,6 +10,24 @@
 		<releasedate />
 		<developer>AppleWin Team</developer>
 		<publisher>AppleWin Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./bigpemu.menu</path>
+		<name>BigPEmu (Jaguar)</name>
+		<desc>Run BigPEmu Emulator (Jaguar).</desc>
+		<image>./media/bigpemu-logo.png</image>
+		<marquee>./media/bigpemu-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Rich Whitehouse</developer>
+		<publisher>Rich Whitehouse</publisher>
+		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />
 		<gametime />
@@ -302,6 +320,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./scummvm.menu</path>
+		<name>ScummVM</name>
+		<desc>Run ScummVM.</desc>
+		<image>./media/scummvm.png</image>
+		<marquee>./media/scummvm.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>ScummVM Team</developer>
+		<publisher>ScummVM Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./xenia_canary.menu</path>
 		<name>Xenia Canary (XBOX 360)</name>
 		<desc>Run Xenia Canary (Xbox 360).</desc>
@@ -457,7 +492,7 @@
 	<game>
 		<path>./pico8.menu</path>
 		<name>PICO-8</name>
-		<desc>Run PICO-8 (Fantasy Console). This software is not provided by RetroBat. You can purchase it there: https://www.lexaloffle.com/pico-8.php</desc>
+		<desc>Run PICO-8 (Fantasy Console). This software is not provided by RetroBat. You can purchase it there: https://lexaloffle.itch.io/pico-8/</desc>
 		<image>./media/pico8-logo.png</image>
 		<marquee>./media/pico8-logo.png</marquee>
 		<rating>0</rating>
@@ -590,7 +625,6 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-
 	<!--<game>
 		<path>./zsnes-dos.menu</path>
 		<name>ZSNES</name>
@@ -619,9 +653,9 @@
 		<developer>Libretro Team</developer>
 		<publisher>Libretro Team</publisher>
 		<genre>Emulator</genre>
-		<playcount>2</playcount>
-		<lastplayed>20210710T122310</lastplayed>
-		<gametime>17</gametime>
+		<playcount />
+		<lastplayed />
+		<gametime />
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
@@ -660,8 +694,8 @@
 	</game>
 	<game>
 		<path>./3dsen.menu</path>
-		<name>3DSen (nes 3D emulator)</name>
-		<desc>Run 3DSen (nes 3D).</desc>
+		<name>3DSen (NES 3D)</name>
+		<desc>Run 3DSen (nes 3D). This software is not provided by RetroBat. You can purshase it here: https://geod.itch.io/3dsenpc/</desc>
 		<image>./media/3dsen-logo.png</image>
 		<marquee>./media/3dsen-logo.png</marquee>
 		<rating>0</rating>
@@ -692,5 +726,21 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-
+	<game>
+		<path>./vita3k.menu</path>
+		<name>Vita 3K (PS Vita)</name>
+		<desc>Run Vita 3K Emulator (PS Vita).</desc>
+		<image>./media/vita3k-logo.png</image>
+		<marquee>./media/vita3k-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Vita3K Team</developer>
+		<publisher>Vita3K Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
 </gameList>
